@@ -24,11 +24,10 @@ domain_label.pack(pady=10)
 domain_entry = tk.Entry(root)
 domain_entry.pack()
 
-lookup_button = tk.Button(root, text="Nslookup," command=nslookup)
+lookup_button = tk.Button(root, text="Nslookup,", command=nslookup)
 lookup_button.pack(pady=10)
 
 result_label = tk.Label(root, text="", wraplegth=300)
 result_label.pack()
 
 root.mainloop()
-_
